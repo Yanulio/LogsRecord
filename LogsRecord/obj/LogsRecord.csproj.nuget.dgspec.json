@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\kasp\\LogsRecord\\LogsRecord\\LogsRecord.csproj": {}
+    "C:\\Users\\User\\Desktop\\a\\LogsRecord\\LogsRecord\\LogsRecord.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\kasp\\LogsRecord\\LogsRecord\\LogsRecord.csproj": {
+    "C:\\Users\\User\\Desktop\\a\\LogsRecord\\LogsRecord\\LogsRecord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\kasp\\LogsRecord\\LogsRecord\\LogsRecord.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\a\\LogsRecord\\LogsRecord\\LogsRecord.csproj",
         "projectName": "LogsRecord",
-        "projectPath": "C:\\Users\\User\\Desktop\\kasp\\LogsRecord\\LogsRecord\\LogsRecord.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\a\\LogsRecord\\LogsRecord\\LogsRecord.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\kasp\\LogsRecord\\LogsRecord\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\a\\LogsRecord\\LogsRecord\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

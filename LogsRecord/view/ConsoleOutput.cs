@@ -2,6 +2,9 @@
 
 namespace LogsRecord.view;
 
+/// <summary>
+/// Class for printing the messages to console.
+/// </summary>
 public static class ConsoleOutput
 {
     public static void PrintInputPathMessage()

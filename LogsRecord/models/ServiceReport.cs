@@ -10,6 +10,14 @@ public class ServiceReport
     private readonly Dictionary<string, int> _logsCategoryCounter;
     private readonly int _rotationAmount;
 
+    /// <summary>
+    /// Constructs the ServiceReport object.
+    /// </summary>
+    /// <param name="serviceName">Service name</param>
+    /// <param name="earliestLog">The earliest log line</param>
+    /// <param name="latestLog">The latest log line</param>
+    /// <param name="logsCategoryCounter">A dictionary of categories and the amount of logs of that category</param>
+    /// <param name="rotationAmount">Number of log file rotations</param>
     public ServiceReport(
         string serviceName, 
         DateTime earliestLog, 

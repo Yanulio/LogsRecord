@@ -9,6 +9,10 @@ public class LogsDirectory
     private readonly Dictionary<string, List<string>> _servicesLogsDictionary;
     public List<ServiceReport> Reports { get; }= new List<ServiceReport>();
 
+    /// <summary>
+    /// Constructs the LogsDirectory object and searches through given directory for .log files.
+    /// </summary>
+    /// <param name="path">directory path</param>
     public LogsDirectory(string? path)
     {
         this._path = path;
@@ -84,6 +88,12 @@ public class LogsDirectory
         return report;
     }
     
+    /// <summary>
+    /// Gets the matching service names for the pattern and makes a report for each of them.
+    /// If there are no matching services, throws the ServiceNotFoundException exception.
+    /// </summary>
+    /// <param name="pattern">Pattern to match service names to.</param>
+    /// <exception cref="ServiceNotFoundException">If there are no matching to the pattern services.</exception>
     public void FillReports(string? pattern)
     {
         List<string> services = GetMatchingServices(pattern);
